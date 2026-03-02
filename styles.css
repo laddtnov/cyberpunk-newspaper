@@ -148,3 +148,31 @@ article:hover {
   animation: glitch 0.3s infinite;
   cursor: pointer;
 }
+@media (max-width: 768px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 15px; 
+  }
+
+  article {
+    width: 100%; 
+    border-right: none;
+    border-bottom: 2px solid #ff00ff; 
+    padding-bottom: 20px;
+  }
+
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+
+  h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    line-height: 1.1;
+  }
+}
