@@ -136,4 +136,16 @@ article:hover {
   transform: translateY(-5px);
   border-color: var(--neon-cyan);
 }
+@keyframes glitch {
+  0% { text-shadow: 2px 2px var(--neon-cyan), -2px -2px var(--neon-pink); }
+  25% { text-shadow: -2px 2px var(--neon-cyan), 2px -2px var(--neon-pink); }
+  50% { text-shadow: 2px -2px var(--neon-cyan), -2px 2px var(--neon-pink); }
+  75% { text-shadow: -2px -2px var(--neon-cyan), 2px 2px var(--neon-pink); }
+  100% { text-shadow: 2px 2px var(--neon-cyan), -2px -2px var(--neon-pink); }
+}
+.title h1:hover {
+  animation: glitch 0.3s infinite;
+  cursor: pointer;
+}
+
 
