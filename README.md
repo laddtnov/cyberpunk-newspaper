@@ -2,7 +2,7 @@
 ![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge&logo=github)
 ![Tech](https://img.shields.io/badge/Tech-CSS--Grid-blueviolet?style=for-the-badge)
 A futuristic, cyberpunk-themed newspaper layout built using **CSS Grid**. This project was created as a final laboratory work for the **freeCodeCamp** Responsive Web Design certification.
-ou can see the live version of this project here: 
+you can see the live version of this project here: 
 👉 **https://laddtnov.github.io/cyberpunk-newspaper/**
 ## 🚀 Live Demo
 
